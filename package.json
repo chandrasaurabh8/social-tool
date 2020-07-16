@@ -1,0 +1,37 @@
+{
+  "name": "social_tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./sotool/frontend/src/index.js --output ./sotool/frontend/static/frontend/main.js",
+    "build": "webpack --mode production --watch ./sotool/frontend/src/index.js --output ./sotool/frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "model-react": "^3.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.7.0-alpha.0",
+    "react-bootstrap": "^1.2.1",
+    "react-bootstrap-dialog": "^0.13.0",
+    "react-bootstrap-validation-fixed": "^0.2.3",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}
